@@ -4,11 +4,12 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    int a, b,exc ;
+    int a=0, b=0;
     cin >> a >> b;
-    exc = a;
+    int exc = a;
     a = b;
     b = exc;
-    std:cout << a << ' ' << b;
+    cout << a << ' ' << b;
+
     return EXIT_SUCCESS;
 }

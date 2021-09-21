@@ -4,9 +4,9 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    int a;
+    int a=0;
     cin >> a;
-    std:cout << a + 2 - a % 2;
+    cout << a + 2 - a % 2;
 
     return EXIT_SUCCESS;
 }
