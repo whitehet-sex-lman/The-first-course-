@@ -1,2 +1,2 @@
-# The-first-course 151
-2021-2022
+# The-first-course 2021. C++. 151
+
