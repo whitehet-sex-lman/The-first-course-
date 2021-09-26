@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    int a=0, b=0;
+    int a = 0, b = 0;
     cin >> a >> b;
     int exc = a;
     a = b;
