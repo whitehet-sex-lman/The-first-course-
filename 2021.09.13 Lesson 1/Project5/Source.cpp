@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    int it=0;
+    int it = 0;
     cin >> it;
     int n1 = it / 100;
     it %= 100;
