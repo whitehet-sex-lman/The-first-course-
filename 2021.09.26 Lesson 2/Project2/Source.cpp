@@ -6,9 +6,13 @@ int main(int argc, char* argv[])
 {
 	int a = 0;
 	cin >> a;
-	if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0)	cout << "YES";
+	if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0)
 	{
-	else cout << "NO";
+		cout << "YES";
+	}
+	else
+	{
+		cout << "NO";
 	}
 	return EXIT_SUCCESS;
 }
