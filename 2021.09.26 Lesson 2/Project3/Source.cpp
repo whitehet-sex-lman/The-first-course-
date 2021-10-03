@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
 	else if (n > k && n % k != 0)
 	{
 		t = n / k + 1;
-			cout << t * 2 * m;
+		cout << t * 2 * m;
 	}
 	else
 	{
