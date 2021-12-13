@@ -4,12 +4,12 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    int a = 0, b = 0;
-    cin >> a >> b;
-    int exc = a;
-    a = b;
-    b = exc;
-    cout << a << ' ' << b;
+	int a = 0, b = 0;
+	cin >> a >> b;
+	int exc = a;
+	a = b;
+	b = exc;
+	cout << a << ' ' << b;
 
-    return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
